@@ -46,6 +46,18 @@ p {
     line-height: 1.6em;
 }
 
+.flex-container {
+display: flex;
+justify-content: center; /* Center flex items horizontally */
+align-items: center; /* Center flex items vertically */
+height: 200px; /* Specify height */
+}
+.flex-item {
+margin: 5px;
+padding: 20px;
+background: lightgray; /* Background color for visibility */
+}
+
 footer {
     background-color: black;
     color: #fff;
