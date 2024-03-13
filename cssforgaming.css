@@ -15,14 +15,18 @@ header {
     padding: 50px;
 }
 
+p3 {color: blue};
+
 #logo {
-    max-width: 17.5%;
-    max-height: 17.5%;
+    max-width: 30%;
+    max-height: 30%;
     display: block;
     margin: 0 auto;
     border-radius: 100%;
     border: 0px solid #fff;
 }
+
+p2 {color: limegreen};
 
 #link {
     width: 5%;
@@ -45,6 +49,8 @@ p {
     font-size: 1.2em;
     line-height: 1.6em;
 }
+
+p1 {color: red};
 
 .flex-container {
 display: flex;
