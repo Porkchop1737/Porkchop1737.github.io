@@ -1,12 +1,14 @@
 /* style.css */
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: cursive;
     margin: 0;
     padding: 0;
     background-color: black;
     color: white;
 }
+
+p{font-family: cursive;}
 
 header {
     background-color: black;
@@ -16,6 +18,8 @@ header {
 }
 
 p3 {color: blue};
+
+h2{font-family: cursive;}
 
 #logo {
     max-width: 30%;
