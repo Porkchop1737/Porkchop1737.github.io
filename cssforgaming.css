@@ -24,8 +24,8 @@ h2{font-family: cursive;}
 #logo {
     max-width: 30%;
     max-height: 30%;
-    display: block;
-    margin: 0 auto;
+    display: inline-block;
+    margin:  auto;
     border-radius: 100%;
     border: 0px solid #fff;
 }
@@ -65,7 +65,7 @@ height: 200px; /* Specify height */
 .flex-item {
 margin: 5px;
 padding: 20px;
-background: lightgray; /* Background color for visibility */
+background: lightgray;
 }
 
 footer {
