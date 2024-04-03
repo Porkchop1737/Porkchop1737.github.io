@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet"
-    type="text/css" href="cssforgaming.css">
+    <link rel="stylesheet" type="text/css" href="cssforgaming.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RPA Gaming Club</title>
@@ -14,29 +13,32 @@
         }
 
         header {
-            background-color: black;
-            color: white;
-            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #000000;
+            color: #fff;
             padding: 10px;
         }
 
         #logo {
-            max-width: 350px; /* Adjust the width as needed */
-            max-height: 350px; /* Adjust the height as needed */
+            min-width: 300px; /* Set minimum width for logo */
+            max-width: 350px; /* Set maximum width for logo */
+            max-height: 350px; /* Set maximum height for logo */
             display: block;
             margin: 0 auto;
         }
 
         #discord {
-            max-width: 75px; /* Adjust the width as needed */
-            max-height: 75px; /* Adjust the height as needed */
+            max-width: 250px; /* Set maximum width for discord image */
+            max-height: 250px; /* Set maximum height for discord image */
             display: block;
             margin: 0 auto;
         }
 
         #gamesimage {
-            max-width: 250px; /* Adjust the width as needed */
-            max-height: 250px; /* Adjust the height as needed */
+            max-width: 200px; /* Set maximum width for games image */
+            max-height: 200px; /* Set maximum height for games image */
             display: block;
             margin: 0 auto;
         }
@@ -47,30 +49,23 @@
         }
 
         footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
             background-color: black;
             color: white;
             text-align: center;
             padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
         }
     </style>
 </head>
 <body>
 
     <header>
-        <a href="index.html"><img id=logo src="https://ideogram.ai/api/images/direct/RI8gKhYvQzSuH0c7X63bpA.jpg" alt="Home"></a>
-        </a>
-        <a href="discord.html"><img id=discord src="https://media.tenor.com/xTVD250OqKwAAAAj/discord.gif" alt="discord server invite"></a>
-        <a href="games.html"><img id=gamesimage src="https://ideogram.ai/api/images/direct/UUjYq0efT1-ZIMiYyb90Sw.png" alt="games we play"></a>
+        <a href="discord.html"><img id="discord" src="https://media.tenor.com/xTVD250OqKwAAAAj/discord.gif" alt="discord server invite"></a>
+        <a href="index.html"><img id="logo" src="https://ideogram.ai/api/images/direct/RI8gKhYvQzSuH0c7X63bpA.jpg" alt="Home"></a>
+        <a href="games.html"><img id="gamesimage" src="https://ideogram.ai/api/images/direct/UUjYq0efT1-ZIMiYyb90Sw.png" alt="games we play"></a>
     </header>
     <section>
-        
         <h2>About Us</h2>
-        <p>Welcome to the RPA Gaming Club! We are a passionate community of gamers who come together to share our love for gaming. Whether you're into PC gaming, or console gaming, we have something for everyone. Join us for exciting events, tournaments, and a great time with fellow gamers.  Click the discord logo above to join the discord.</p>
-    </section>
-    <script src="rpagamingscript.js"></script>
-
-</body>
-</html>
+        <p>Welcome to the RPA Gaming Club! We are a passionate community of gamers who come together to share our love for gaming. Whether you're into PC gaming,
