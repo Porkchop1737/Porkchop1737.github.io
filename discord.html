@@ -59,7 +59,7 @@
             padding: 10px;
         }
     </style>
-    <script src="rpagamingscript.js"></script>
+            <script src="rpagamingscript.js"></script>
 </head>
 <body>
 
@@ -69,11 +69,21 @@
         <a href="games.html"><img id="gamesimage" src="https://ideogram.ai/api/images/direct/UUjYq0efT1-ZIMiYyb90Sw.png" alt="games we play"></a>
     </header>
         <h2>Verify that you attend RPA.</h2>
-        <p>Please enter the Wi-Fi password.</p>
-        <form action="games.html" method="post">
-            <label for="pwd">Password:</label>
-            <input type="password" id="pwd" name="pwd" required>
-            <input type="submit" value="submit">
-          </form>
+        <p>Please input the Wi-Fi password:</p>
+    <input id="pass" type="text">
+    <button type="button" onclick="myFunction()">Submit</button>
+    
+    <p id="demo"></p>
+    
+    <script>
+        function myFunction() {
+            let x = document.getElementById("pass").value;
+            if (x === "RpAcad2009") {
+                window.location.href = "https://discord.com";
+            } else {
+                document.getElementById("demo").innerText = "Incorrect";
+            }
+        }
+    </script>
 </body>
 </html>
